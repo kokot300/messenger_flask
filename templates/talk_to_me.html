@@ -1,0 +1,47 @@
+<!doctype HTML>
+<html lang="en">
+<head>
+    <title>talk to me</title>
+</head>
+<body>
+<div>
+    <form action="/" method="post">
+        <fieldset>
+            <legend>talk to me</legend>
+            <label for="m_user">user name</label><br>
+            <input name="m_user" id="m_user" type="text"/><br>
+            <label for="m_secret">password</label><br>
+            <input type="password" name="m_secret" id="m_secret"/><br>
+            <label for="guy">whom are you sending message to</label><br>
+            <input name="guy" id="guy" type="text"/><br>
+            <label for="message">tell me</label><br>
+            <textarea name="message" id="message"></textarea><br>
+            <label for="m_list">list messages</label><br>
+            <input type="checkbox" name="m_list" id="m_list" value="yes"/><br>
+            <button type="submit">send</button>
+            <br>
+        </fieldset>
+    </form>
+</div>
+<br>
+<div>
+    <form action="/" method="post">
+        <fieldset>
+            <legend>edit user</legend>
+            <label for="user">user name</label><br>
+            <input name="user" id="user" type="text"/><br>
+            <label for="secret">password</label><br>
+            <input type="password" name="secret" id="secret"/><br>
+            <label for="new_password">new password</label><br>
+            <input type="password" name="new_password" id="new_password"/><br>
+            <label for="deletion">delete?</label><br>
+            <input type="checkbox" name="deletion" id="deletion" value="yes"/><br>
+            <label for="list">list</label><br>
+            <input type="checkbox" name="list" id="list" value="yes"/><br>
+            <button type="submit">send</button>
+            <br>
+        </fieldset>
+    </form>
+</div>
+</body>
+</html>
